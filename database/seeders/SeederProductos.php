@@ -124,7 +124,7 @@ DB::table('productos')->insert([
     'nombreProducto' => 'Silla de Comedor Dallas', 
     'cantidadProducto' => 18,
     'precioProducto' => 944000,
-    'fotoProducto' => 'mc1.jpg',
+    'fotoProducto' => 'sc1.jpg',
     'descripcionProducto' => 'La silla Dallas diseñada ergonómicamente, pensada para tu comodidad y postura manifestando una sutil geométrica de forma lineal en su espaldar y su partes inferiores mostrando un toque de elegancia.
 
     Medidas:  Alto: 100 cm | Largo: 48 cm | Profundo: 51 cm',
