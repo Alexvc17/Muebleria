@@ -52,6 +52,7 @@
 
 
 <hr>
+
 <ul class="nav text-light bg-light">
 
 <!--
@@ -67,7 +68,18 @@
     </div>
   </li>
   -->
-
+<!-- CLIENTES -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Clientes</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="{{url('/clientes/visualizar')}}">Lista de Clientes</a>
+      
+      
+      
+      
+      
+    </div>
+</li>
 
 <!-----SERVICIOS----->
   <li class="nav-item dropdown">
@@ -77,26 +89,59 @@
       
       
       
+    </div>
+  </li>
+
+  
+
+  <!-----VENTAS----->
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Ventas</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="{{route('registroVen')}}">Registro Ventas</a>
+      <a class="dropdown-item" href="{{url('ventas/visualizar')}}">Mostrar Ventas</a>
+      
       
       
     </div>
   </li>
-
 
     <!-- Categorias -->
 
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorias</a>
     <div class="dropdown-menu">
-      <a class="dropdown-item" href="{{url('categorias')}}">Listar</a>
+      <a class="dropdown-item" href="{{url('categoria-sala')}}">Sala</a>
+      <a class="dropdown-item" href="{{url('categoria-comedor')}}">Comedor</a>
+      <a class="dropdown-item" href="{{url('categoria-estudio')}}">Estudio</a>
+      <a class="dropdown-item" href="{{url('categoria-dormitorio')}}">Dormitorio</a>
       
     
     </div>
   </li>
 
-
+<!-----deuda----->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Endeudamiento</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="{{url('/deuda/consultar')}}">Consultar Deuda</a>
+          
+    </div>
+  </li>
+<!-----pagos----->
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Abono</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="{{url('abono/consulta')}}">Realizar abono</a>
+          
+    </div>
+  </li>
   
 </ul>
+
+
+
+  
 
 
 <!--///////////////////////////////////////////////////////////////////////////-->

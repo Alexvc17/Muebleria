@@ -20,6 +20,7 @@ class SeederProductos extends Seeder
 
         DB::table('productos')->insert([
 
+            'id' => 1001,
             'nombreProducto' => 'Sofá Vittoria', 
             'cantidadProducto' => 11,
             'precioProducto' => 1157000,
@@ -31,6 +32,7 @@ class SeederProductos extends Seeder
 
     DB::table('productos')->insert([
 
+        'id' => 1002,
         'nombreProducto' => 'Sofá Anderson', 
         'cantidadProducto' => 5,
         'precioProducto' => 1334000,
@@ -42,6 +44,7 @@ class SeederProductos extends Seeder
 
 DB::table('productos')->insert([
 
+    'id' => 1003,
     'nombreProducto' => 'Sofá Vitorino', 
     'cantidadProducto' => 7,
     'precioProducto' => 1574000,
@@ -54,6 +57,7 @@ DB::table('productos')->insert([
 
 DB::table('productos')->insert([
 
+    'id' => 1004,
 'nombreProducto' => 'Mesa de noche Atenea', 
 'cantidadProducto' => 11,
 'precioProducto' => 574000,
@@ -65,6 +69,7 @@ DB::table('productos')->insert([
 
 DB::table('productos')->insert([
 
+    'id' => 1005,
 'nombreProducto' => 'Mesa de Noche Bento Nogal Francés', 
 'cantidadProducto' => 9,
 'precioProducto' => 616000,
@@ -78,6 +83,7 @@ DB::table('productos')->insert([
 
 DB::table('productos')->insert([
 
+    'id' => 1006,
     'nombreProducto' => 'Comedor Hanna Trento', 
     'cantidadProducto' => 12,
     'precioProducto' => 2663000,
@@ -91,6 +97,7 @@ DB::table('productos')->insert([
 
 DB::table('productos')->insert([
 
+    'id' => 1007,
     'nombreProducto' => 'Comedor Camelia', 
     'cantidadProducto' => 8,
     'precioProducto' => 2232000,
@@ -104,6 +111,7 @@ DB::table('productos')->insert([
 
 DB::table('productos')->insert([
 
+    'id' => 1008,
     'nombreProducto' => 'Mesa de Noche Bento Nogal Francés', 
     'cantidadProducto' => 9,
     'precioProducto' => 616000,
@@ -121,6 +129,7 @@ DB::table('productos')->insert([
 
 DB::table('productos')->insert([
 
+    'id' => 1009,
     'nombreProducto' => 'Silla de Comedor Dallas', 
     'cantidadProducto' => 18,
     'precioProducto' => 944000,
@@ -138,6 +147,7 @@ DB::table('productos')->insert([
 
 DB::table('productos')->insert([
 
+    'id' => 1010,
     'nombreProducto' => 'Escritorio Verona Natural con Blanco', 
     'cantidadProducto' => 18,
     'precioProducto' => 797000,
@@ -150,6 +160,7 @@ DB::table('productos')->insert([
 
 DB::table('productos')->insert([
 
+    'id' => 1011,
     'nombreProducto' => 'Escritorio Porto', 
     'cantidadProducto' => 9,
     'precioProducto' => 827000,
@@ -162,6 +173,7 @@ DB::table('productos')->insert([
 
 DB::table('productos')->insert([
 
+    'id' => 1012,
     'nombreProducto' => 'Silla Calgary', 
     'cantidadProducto' => 12,
     'precioProducto' => 439000,
@@ -174,6 +186,7 @@ DB::table('productos')->insert([
 
 DB::table('productos')->insert([
 
+    'id' => 1013,
     'nombreProducto' => 'Biblioteca Graus', 
     'cantidadProducto' => 5,
     'precioProducto' => 767000,
@@ -189,6 +202,7 @@ DB::table('productos')->insert([
 
 DB::table('productos')->insert([
 
+    'id' => 1014,
     'nombreProducto' => 'Colchón Ortholife Plus Fiber Foam', 
     'cantidadProducto' => 12,
     'precioProducto' => 669000,
@@ -204,6 +218,7 @@ DB::table('productos')->insert([
 
 DB::table('productos')->insert([
 
+    'id' => 1015,
     'nombreProducto' => 'Cama Tokio', 
     'cantidadProducto' => 8,
     'precioProducto' => 919000,
@@ -215,6 +230,7 @@ DB::table('productos')->insert([
 ]);
 DB::table('productos')->insert([
 
+    'id' => 1016,
     'nombreProducto' => 'Cama Dotti', 
     'cantidadProducto' => 10,
     'precioProducto' => 1079000,
@@ -229,6 +245,7 @@ DB::table('productos')->insert([
 
 DB::table('productos')->insert([
 
+    'id' => 1017,
     'nombreProducto' => 'Mesa de Noche Blech', 
     'cantidadProducto' => 11,
     'precioProducto' => 359000,

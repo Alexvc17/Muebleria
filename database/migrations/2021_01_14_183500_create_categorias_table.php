@@ -14,7 +14,7 @@ class CreateCategoriasTable extends Migration
     public function up()
     {
         Schema::create('categorias', function (Blueprint $table) {
-            $table->id();//NOS CREA UNA LLAVE PRIMARIA DE TIPO AUTOINCREMENTAL, SIN SIGNO Y BIG INTEGER
+            $table->id();
             $table->string('nombreCategoria', 20);
             $table->string('descripcion', 100);
             $table->timestamps();
